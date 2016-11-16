@@ -15,6 +15,9 @@ class BeeVC: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func handleClick(sender: AnyObject){
+        print("I have been called")
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
