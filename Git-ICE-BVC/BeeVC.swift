@@ -13,7 +13,7 @@ class BeeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("Help-B")
+        print("Help-ME")
     }
 
     @IBAction func handleClick(sender: AnyObject){
